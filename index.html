@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/d90721ef25.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <!-- icons link -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&family=Roboto+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="logoid" href="#"
+          >Port<span class="text-danger">folio</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" id="icon1"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#row-first"
+                id="firstlink"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features-first">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features-second">Contact</a>
+            </li>
+          </ul>
+          <span class="navbar-text" id="searchid">
+            <h4><i class="bi bi-search"></i></h4>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+
+    <div class="container-fluid">
+      <div class="row justify-content-evenly" id="row-first">
+        <div class="col-md-6 col-11" id="first-col">
+          <h4>Hello,</h4>
+          <h1>I am Nabin</h1>
+          <h1 class="bhandari">Bha<span class="text-danger">ndari</span></h1>
+          <p>“Software Developer and Web Developer“</p>
+          <p id="para1">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            provident et corrupti facere iste eveniet dolores, minima alias
+            maxime cum.
+          </p>
+          <button class="btn" id="btn1">Read more</button>
+          <hr class="line" />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="images/IMG_20191211_072615_895.jpg"
+            alt=""
+            class="img-fluid"
+            id="img1"
+          />
+        </div>
+      </div>
+
+      <!-- about section -->
+      <div class="row">
+        <div class="col-12" id="social">
+          <h3><i class="fa-brands fa-facebook"></i></h3>
+          <h3><i class="fa-brands fa-instagram"></i></h3>
+          <h3><i class="fa-brands fa-twitter"></i></h3>
+        </div>
+      </div>
+
+      <div class="row" id="about">
+        <div class="col-md-7" id="first-about">
+          <div class="logos">
+            <img
+              src="images/about-character.png"
+              alt=""
+              class="img-fluid"
+              id="about-img1"
+            />
+            <img src="images/About.png" alt="" id="about-img2" />
+          </div>
+          <h1 class="text-left">About <span class="text-danger">me</span></h1>
+          <p class="text-left" id="about-para">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
+            beatae expedita minus neque est fugiat praesentium corporis id,
+            omnis distinctio soluta aperiam assumenda. Impedit aspernatur rem
+            quae, debitis dignissimos voluptate quos autem est sint consectetur
+            quia iusto fugit officia dolore ducimus, illo quibusdam? Quo, vel?
+          </p>
+          <button class="btn" id="btn-2">Let's talk</button>
+        </div>
+
+        <div class="col-md-4" id="second-about">
+          <img
+            src="images/Ellipse 1.png"
+            alt=""
+            class="img-fluid float-end"
+            id="about-nabinimg"
+          />
+        </div>
+      </div>
+
+      <!-- <-----------Features section------------->
+        <div class="row">
+          <div class="col-12" id="social">
+            <h3><i class="fa-brands fa-facebook"></i></h3>
+            <h3><i class="fa-brands fa-instagram"></i></h3>
+            <h3><i class="fa-brands fa-twitter"></i></h3>
+          </div>
+        </div>
+      <div class="row pt-3" id="features-first">
+        <div class="col-12">
+          <h1 class="text-center mt-5" id="heading-features">
+            Featu<span class="text-danger">res</span>
+          </h1>
+          <img src="images/Features-character.png" alt="" id="features-character" class="img-fluid">
+        </div>
+      </div>
+      <div class="row justify-content-evenly pt-5" id="features-row">
+        <div class="col-md-3 col-9 pt-5" id="rowfirst">
+        <h1 class="text-center mb-4"><i class="bi bi-bag-heart-fill" id="features-icon1"></i></h1>
+         <h4 class="text-center mb-4">Software <span class="text-danger">Development</span></h4>
+
+         <p class="text-center mb-4" id="features-para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor lorem ipsum dolor sit amet adipisioids ut alious.</p>
+        </div>
+
+
+
+
+        <div class="col-md-3 col-9 pt-5" id="rowsecond">
+          <h1 class="text-center mb-4"><i class="fa-solid fa-arrow-up-from-water-pump" id="features-icon2"></i></h1>
+         <h4 class="text-center mb-4">Web <span class="text-danger">Development</span></h4>
+
+         <p class="text-center mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor lorem ipsum dolor sit amet adipisioids ut alious.</p>
+        </div>
+
+
+
+
+        <div class="col-md-3 col-9 pt-5" id="rowthird">
+          <h1 class="text-center mb-4"><i class="fa-brands fa-android" id="features-icon3"></i></h1>
+         <h4 class="text-center mb-4">Android <span class="text-danger">Development</span></h4>
+
+         <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor lorem ipsum dolor sit amet adipisioids ut alious.</p>
+        </div>
+      </div>
+
+
+
+      <!-- contact -->
+
+      <div class="row pt-3" id="features-second">
+        <div class="col-12">
+          <h1 class="text-center mt-5" id="heading-features">
+            Con<span class="text-danger">tact</span>
+          </h1>
+        </div>
+      </div>
+
+
+
+      <div class="row justify-content-evenly" id="contact-row">
+
+    <div class="col-md-5" id="Contact-col1">
+<input type="text" placeholder="Enter your name "><i class="fa-solid fa-user" id="contact-icon1"></i>
+<input type="text" placeholder="Enter e-mail" ><i class="fa-solid fa-envelope" id="contact-icon2"></i>
+<input type="text" placeholder="Contact no."><i class="fa-solid fa-phone" id="contact-icon3"></i>
+<button id="contact-btn">Submit</button>
+    </div>  
+    <div class="col-md-5" id="Contact-col2">
+      <img src="images/Contact.png" alt="" class="img-fluid" id="contact-image">
+    </div>  
+      </div>
+
+
+      <!-- <-----------footer---------->
+<div class="row justify-content-evenly" id="footer-row">
+ <div class="col-sm-6">
+   <div class="row justify-content-evenly">
+     <div class="col-3">
+       <h4 class="text-danger">Links</h4>
+    <span class="footer-text">Home</span><br>
+    <span class="footer-text">about</span><br>
+    <span class="footer-text">Features</span><br>
+
+     </div>
+     <div class="col-3">
+      <h4 class="text-danger">Explore</h4>
+      <span  class="footer-text">Find a non profit</span><br>
+      <span class="footer-text">support</span><br>
+      <span class="footer-text">Cooperate solutions</span><br>
+     </div>
+     <div class="col-3">
+      <h4 class="text-danger">Support</h4>
+      <span class="footer-text">Features</span><br>
+      <span class="footer-text">Contact us</span><br>
+     </div>
+     </div>
+   </div>
+
+   <div class="col-sm-4" id="footer-lastcol">
+<img src="images/Ellipse 2.png" alt="" id="footer-img"> <br>
+<small>Copyright@nabinbhandari 2022</small><br>
+<large>Port<span class="text-danger">folio</span></large>
+
+<div id="social2">
+  <h3><i class="fa-brands fa-facebook"></i></h3>
+  <h3><i class="fa-brands fa-instagram"></i></h3>
+  <h3><i class="fa-brands fa-twitter"></i></h3>
+</div>
+
+   </div>
+ </div>
+
+
+
+
+      <!-- container-end -->
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

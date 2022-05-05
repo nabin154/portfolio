@@ -1,0 +1,426 @@
+.navbar{
+   background-color: #0B0B0B; 
+} 
+nav ul{
+margin-left: 30%;
+align-items: center;
+
+}
+nav ul a{
+    margin-left: 30px;
+    color: white !important;
+    font-family: 'Jaldi';
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+  
+}
+#logoid{
+    padding-left: 30px;
+    color: white;
+    font-family: 'Jaldi';
+    font-weight: bold;
+    font-size: 25px;
+}
+#searchid{
+    padding-right: 30px;
+    color: white;
+}
+#firstlink{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: red !important;
+}
+
+nav a:hover{
+    color: red !important;
+}
+#row-first{
+    background-color: #0B0B0B;
+    padding-top: 80px;
+    height: 89.5vh;
+
+}
+#first-col{
+    padding-left: 5%;
+    position: relative;
+}
+.col-md-6 h1{
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+}
+.col-md-6 h4{
+    color: #cfcfcf;
+}
+.bhandari{
+    padding-left: 22%;
+}
+.col-md-6  p{
+    color: white;
+    font-size: 22px;
+    padding-left: 17%;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+#para1{
+    color: white;
+    font-size: 20px;
+    padding-left: 17%;
+    margin-top: 35px;
+    font-weight: 400;
+
+}
+#img1{
+    border-radius: 30px;
+    min-height: 300px;
+}
+
+#btn1{
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    position: absolute;
+    right: 50px;
+}
+.line{
+     margin-top: 40px;
+    color: white;
+    width: 75%;
+}
+#btn1:hover{
+    background-color: rgb(211, 16, 16);
+
+}
+.common-line{
+   margin: 80px 0px;
+   color: white;
+   width: 100%;
+}
+
+
+
+/* <--------------about-----------------> */
+
+#about{
+    background-color: #0B0B0B;
+    
+    height: 90vh;
+    
+}
+.logos{
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+} 
+
+#about-img2{
+    position: absolute;
+    top: 0;
+    
+}
+
+#second-about{
+     padding-right: 8%;
+    padding-top: 10%;
+   
+    position: relative;
+}
+
+#about h1{
+    color: white;
+    font-weight: bold;
+    font-size: 58px;
+    padding-left: 17%;
+}
+#about-para{
+    margin-top: 30px;
+    font-weight: 300;
+    
+        color: rgb(192, 165, 201);
+        font-size: 21px;
+        padding-left: 17%;
+        margin-top: 20px;
+        letter-spacing: 1px;
+    
+    }
+    #about-nabinimg{
+        height: auto;
+        width: 250px;
+        box-shadow: 0 0 10px whitesmoke;
+        border-radius: 50%;
+    }
+#social{
+    background-color: #0B0B0B;
+    display: flex;
+    justify-content: end;
+   
+}
+.fa-instagram{
+    margin-left: 12px;
+    color: rgb(233, 33, 156);
+}
+.fa-facebook{
+    margin-left: 12px;
+    color: blue;
+}
+.fa-twitter{
+    margin-left: 12px;
+    color: rgb(0, 195, 255);
+}
+#btn-2{
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 15px;
+    float: right;
+    margin-right: 30px;
+   
+}
+
+
+
+/* <----------features---> */
+
+#features-first
+{
+    background-color: #0B0B0B;
+}
+
+#features-row{
+    background-color: hsl(0, 0%, 4%);
+}
+#features-icon1,#features-icon2,#features-icon3 {
+    color: white;
+}
+#heading-features{
+    color: white;
+    font-weight: bold;
+    font-size: 58px; 
+}
+#rowfirst,#rowsecond,#rowthird{
+    background-color: #333030;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 5px rgb(139, 51, 51);
+}
+#rowthird:hover,#rowsecond:hover,#rowfirst:hover{
+    box-shadow: 0px 0px 15px rgb(216, 209, 209);
+    background-color: #6b0f09;
+}
+
+#features-character{
+margin-left: 37%;
+}
+
+#rowfirst h4,p{
+    color: white;
+}
+#rowsecond h4,p{
+    color: white;
+}
+#rowthird h4,p{
+    color: white;
+}
+
+
+/* <------------Contact------------> */
+
+
+#features-second
+{
+    background-color: #0B0B0B;
+}
+#contact-row{
+    background-color: #0B0B0B;
+     padding-bottom: 40px;
+}
+#Contact-col1{
+    padding-top: 5%;
+    padding-left: 5%;
+    position: relative;
+}
+input{
+    margin-bottom: 22px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 3px solid red;
+    background-color: #C4C4C4;
+}
+input::placeholder{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+#contact-btn{
+    padding:  7px 20px;
+    border-radius: 16px;
+    float: right;
+    margin-right: 110px;
+    border: 2px solid white;
+    background-color: #FF1B1B;
+    color: white;
+    font-weight: bold;
+}
+#contact-icon1{
+    font-size: 25px;
+    color:red;
+   margin-left: 7px;
+}
+#contact-icon2{
+    font-size: 25px;
+    color:red;
+    margin-left: 7px;
+}
+#contact-icon3{
+    font-size:25px;
+    color:red;
+  margin-left: 7px;
+}
+#Contact-col2{
+    padding-top: 5%;
+}
+  /* <--------footer-----------> */
+#footer-row{
+    background-color: #0B0B0B;
+    padding-top: 10%;
+}
+
+#footer-lastcol{
+    padding-left: 5%;
+    padding-bottom: 7%;
+}
+#footer-img{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.footer-text ,#footer-lastcol small{
+    color: white;
+}
+#footer-lastcol large{
+    color: white;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+#social2{
+    background-color: #0B0B0B;
+    display: flex;
+    justify-content: end;
+    margin-right: 230px;
+    margin-top: 30px;
+   
+}
+
+
+/* <-------------media queries-------------> */
+
+@media only screen and (max-width:500px){
+
+    .col-md-6 h1{
+        color: white;
+        font-size: 35px;
+        margin: 0;
+    }
+    
+    #row-first{
+        
+        height: auto;
+    
+    }
+
+.bhandari{
+    padding-left: 35%;
+}
+   
+.col-md-6  p{
+    font-size: 20px;
+    padding-left: 0%;
+    margin-top: 40px;
+   
+
+}
+
+#para1{
+    color: white;
+    font-size: 17px;
+    padding-left: 0%;
+    margin-top: 35px;
+    font-weight: 400;
+
+}
+
+.line{
+   
+   width: 65%;
+}
+#searchid{
+    display: none;
+}
+
+nav ul{
+    margin-left: 0%;
+    }
+    input{
+        margin-left: 20px;
+    }
+   
+   
+  
+   
+}
+
+@media only screen and (max-width:770px){
+    #row-first{
+        
+        height: auto;
+    
+    }
+ #second-about
+  {
+    display: none; 
+ }
+ #Contact-col2{
+    padding-left: 30%;
+}
+
+
+
+}
+@media only screen and (max-width:576px)
+{
+  #footer-lastcol{
+      padding-left: 30%;
+      padding-top: 15px;
+  }  
+  #first-about h1{
+  font-size: 40px;
+  }
+  #heading-features{
+  font-size: 40px;
+ 
+  }
+  #social2{
+      padding-left: 50%;
+  }
+  #about-para{
+      font-weight: 400;
+      margin-right: 50px;
+  }
+  input{
+      margin-left: 70px;
+      padding: 10px;
+  }
+
+}
+
